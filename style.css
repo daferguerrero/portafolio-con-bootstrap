@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 /* Estilos generales */
 section {
@@ -16,6 +17,11 @@ h1 {
 .seccion-oscura {
   color: #fff;
   background-color: #1b1b32;
+}
+
+.seccion-clara {
+  color: #000;
+  background-color: #fff;
 }
 
 .seccion-titulo {
@@ -75,6 +81,57 @@ h1 {
   max-width: 600px;
   text-align: center;
 }
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+  border: 1px solid #000;
+  /* height: 350px; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+  color: #fff;
+  background-color: #1b1b32;
+
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #ffff00;
+  background-color: #1b1b32;
+  padding: 8px 19px;
+  border-radius: 50%; /*rounded-circle*/
+}
+
+.experiencia i {
+  border: 1px solid #ffff00;
+}
+
+.experiencia .experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.experiencia .badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.experiencia .badge {
+  margin: 5px;
+}
+
 
 
 
