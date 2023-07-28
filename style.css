@@ -267,6 +267,54 @@ h1 {
 }
 
 
+/** Serccion contacto */
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  background-color: rgb(13, 110, 253);
+  margin-top: -5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px 1px;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: #fff;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.contacto button i {
+  font-size: 1.3rem;
+}
+
+
+
+
 
 
 
