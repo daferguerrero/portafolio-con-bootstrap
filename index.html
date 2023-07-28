@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- https://www.youtube.com/watch?v=QCw0L6FupQ0&t=14573s -->
+
   <!--* Barra de navegación -->
   <!-- Bootstratp > Components > Navbar > responsive-behaviors > Toogler (Copiar y pegar) -->
   <nav class="navbar navbar-expand-md .bg-body">
@@ -235,7 +237,57 @@
         <i class="bi bi-arrow-right-circle-fill"></i>
       </button>
     </a>
+  </section>
 
+  <!--* Sección testimonios  -->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+
+    <!-- Carrucel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="./imagenes/cliente1.svg" alt="Foto de Gino">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis fuga voluptatibus sint doloribus explicabo possimus dolore sunt quidem at corporis in, amet earum, atque saepe voluptates.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Gino</p>
+              <p class="cargo">Gerente de proyectos en Desarrollo Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="./imagenes/cliente2.svg" alt="Foto de Nohora">
+            <p class="testimonio-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta atque ipsam, eaque facere doloremque, alias corrupti aut, at deserunt mollitia amet consectetur ducimus.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Nohora</p>
+              <p class="cargo">Gerente de Diseña mi Página Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="./imagenes/cliente3.svg" alt="Foto de Leonardo">
+            <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla cum recusandae eius aut tempore delectus, quos laboriosam, dolore quas nemo voluptates nobis sunt.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Leonardo</p>
+              <p class="cargo">Director de aprende a Programar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Botones -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
   </section>
 
 
