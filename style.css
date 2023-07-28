@@ -30,8 +30,27 @@ h1 {
   padding: 15px 0;
 }
 
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
 .seccion-texto {
   font-size: 1.2rem;
+}
+
+.texto-negro {
+  color: #000;
+}
+
+.texto-blanco {
+  color: #fff;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+  font-weight: bold;
 }
 
 
@@ -82,6 +101,8 @@ h1 {
   text-align: center;
 }
 
+
+/* Seccin experiencia */
 .experiencia {
   padding: 40px 40px 60px 40px;
 }
@@ -133,6 +154,64 @@ h1 {
 }
 
 
+/* Seccion proyectos */
+.proyectos-recientes {
+  padding: 40px;
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease;
+}
+
+.proyecto:hover .overlay {
+ opacity: 1;
+}
+
+.proyecto:hover .overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto .overlay .iconos-contenedor {
+  display: flex;
+}
+
+.proyecto .overlay .iconos-contenedor i {
+  color: #000;
+  font-size: 60px;
+  margin: 10px;
+}
+
+
 
 
 
@@ -148,4 +227,14 @@ h1 {
     max-width: 600px;
   }
 
+}
+
+@media screen and (max-width: 400px) {
+  .proyecto:hover .overlay p {
+    font-size: 18px;
+  }
+
+    .proyecto .overlay .iconos-contenedor i {
+      font-size: 40px;
+    }
 }
